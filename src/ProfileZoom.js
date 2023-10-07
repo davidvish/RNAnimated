@@ -16,7 +16,7 @@ import Animated, {
 const AnimatedImage = Animated.createAnimatedComponent(Image);
 const AnimatedBtn = Animated.createAnimatedComponent(TouchableOpacity);
 
-const Reanimated_3 = () => {
+const ProfileZoom = () => {
   const AnimatedWidth = useSharedValue(70);
   const AnimatedHeight = useSharedValue(70);
   const AnimatedY = useSharedValue(0);
@@ -97,7 +97,7 @@ const Reanimated_3 = () => {
   );
 };
 
-export default Reanimated_3;
+export default ProfileZoom;
 
 const styles = StyleSheet.create({
   image: {
@@ -105,3 +105,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+

@@ -8,7 +8,7 @@ import Animated ,{
   withTiming,
 } from 'react-native-reanimated';
 
-const Reanimated_2 = () => {
+const CircleZoom = () => {
   const w = useSharedValue(100);
   const h = useSharedValue(100);
   const r = useSharedValue(0);
@@ -66,6 +66,6 @@ const Reanimated_2 = () => {
   );
 };
 
-export default Reanimated_2;
+export default CircleZoom;
 
 const styles = StyleSheet.create({});
