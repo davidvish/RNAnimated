@@ -6,14 +6,16 @@ import Reanimated_3 from './src/CircleZoom'
 import Card from './src/Card'
 import ProfileZoom from './src/ProfileZoom'
 import CircleZoom from './src/CircleZoom'
+import BottomTab from './src/BottomTab'
 
 const App = () => {
   return (
       // <Reanimated_2/>
       // <Reanimated_3/>
-      <CircleZoom/>
-      // <ProfileZoom/>
+      // <CircleZoom/>
+      //  <ProfileZoom/>
       // <Card/>
+      <BottomTab/>
   )
 }
 
